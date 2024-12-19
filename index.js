@@ -1,6 +1,6 @@
 
 const apiKey = "97bed8f5";
-const urlBase = `http://www.omdbapi.com/?apikey=${apiKey}`;
+const urlBase = `https://www.omdbapi.com/?apikey=${apiKey}`;
 
 // Function to fetch and display movies
 function fetchAndDisplayMovies(searchQuery = "Avengers") {
