@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+}
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto; /* Allows horizontal scrolling if content overflows */
+    gap: 20px; /* Adds spacing between movie cards */
+    padding: 10px;
+}
+#searchButton{
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+img{
+    border-radius: 5px;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+#titleInput{
+    font-size: 20px;
+}
+#searchButton:hover{
+    border-color: goldenrod;
+}
